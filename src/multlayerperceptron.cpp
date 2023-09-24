@@ -29,7 +29,7 @@ void MultiLayerPerceptron::set_weights(std::vector<std::vector<std::vector<doubl
 	}
 }
 
-void MultiLayerPerceptron::print_weights(){
+void MultiLayerPerceptron::print_weights() const{
 	std::cout<<std::endl;
 	
 	for(int i=1;i<network.size();i++){
